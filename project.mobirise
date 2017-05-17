@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "join.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -171,7 +171,7 @@
           },
           "title": "REJOIGNEZ L'AVENTURE !",
           "text": "<h4>Une équipe motivée, des joueurs passionés, une immersion parfaite.</h4>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"whitelist.html\" data-toolbar=\"-mbrBtnMove\">NOUS REJOINDRE</a> "
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"join.html\" data-toolbar=\"-mbrBtnMove\">NOUS REJOINDRE</a> "
         },
         {
           "_tags": [
