@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Rpolice.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -170,7 +170,7 @@
             "showButton": true
           },
           "title": "REJOIGNEZ L'AVENTURE !",
-          "text": "<h4>Une équipe motivé, des joueurs passionés, une immersion parfaite.</h4>",
+          "text": "<h4>Une équipe motivée, des joueurs passionés, une immersion parfaite.</h4>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"whitelist.html\" data-toolbar=\"-mbrBtnMove\">NOUS REJOINDRE</a> "
         },
         {
