@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 44,
+    "uniqCompNum": 47,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -38,7 +38,8 @@
         "meta_descr": "Accueil du site.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -171,7 +172,7 @@
           },
           "title": "REJOIGNEZ L'AVENTURE !",
           "text": "<h4>Une équipe motivée, des joueurs passionés, une immersion parfaite.</h4>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"join.html\" data-toolbar=\"-mbrBtnMove\">NOUS REJOINDRE</a> "
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Join.html\" data-toolbar=\"-mbrBtnMove\">NOUS REJOINDRE</a> "
         },
         {
           "_tags": [
@@ -317,7 +318,8 @@
     "devblog.html": {
       "settings": {
         "title": "DevBlog",
-        "meta_descr": "Mises à jour effectuées sur le serveur."
+        "meta_descr": "Mises à jour effectuées sur le serveur.",
+        "order": 2
       },
       "components": [
         {
@@ -532,7 +534,8 @@
     "regles.html": {
       "settings": {
         "title": "Règles du serveur",
-        "meta_descr": "Règles du serveur."
+        "meta_descr": "Règles du serveur.",
+        "order": 5
       },
       "components": [
         {
@@ -705,7 +708,8 @@
     "Rgenerales.html": {
       "settings": {
         "title": "Règles du serveur",
-        "meta_descr": "Règles du serveur."
+        "meta_descr": "Règles du serveur.",
+        "order": 4
       },
       "components": [
         {
@@ -865,7 +869,8 @@
     "Rcivils.html": {
       "settings": {
         "title": "Règles du serveur",
-        "meta_descr": "Règles du serveur."
+        "meta_descr": "Règles du serveur.",
+        "order": 6
       },
       "components": [
         {
@@ -1025,7 +1030,8 @@
     "Rpolice.html": {
       "settings": {
         "title": "Règles du serveur",
-        "meta_descr": "Règles du serveur."
+        "meta_descr": "Règles du serveur.",
+        "order": 7
       },
       "components": [
         {
@@ -1182,10 +1188,11 @@
         }
       ]
     },
-    "join.html": {
+    "Join.html": {
       "settings": {
-        "title": "Nous rejoindre !",
-        "meta_descr": "Nous rejoindre !"
+        "title": "Nous rejoindre",
+        "meta_descr": "Nous rejoindre",
+        "order": 3
       },
       "components": [
         {
@@ -1242,7 +1249,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-13",
+          "_anchor": "ext_menu-18",
           "_params": {
             "bgColor": "#282828",
             "fontSize": 0.75,
@@ -1286,7 +1293,7 @@
               "color": "#b8312f"
             }
           },
-          "_anchor": "footer1-14",
+          "_anchor": "footer1-19",
           "_params": {
             "paddingTop": "4",
             "paddingBottom": "4",
@@ -1306,7 +1313,17 @@
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-17",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#b8312f"
+            },
+            ".mbr-section-lead": {
+              "color": "#212020",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "header1-1a",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
@@ -1327,18 +1344,8 @@
             "showButtons": false
           },
           "title": "POUR NOUS REJOINDRE...",
-          "text": "<p>Afin de nous rejoindre, suivez ces quelques étapes.</p><p><font size=\"5\"><span style=\"line-height: 36px;\">1. Lisez attentivement le règlement.</span></font></p><font size=\"5\">2. Rejoignez le Discord.</font><br><font size=\"5\"><br></font>3. Postez y votre candidature (Salon textuel \"Whitelist\")<br><br>4. Patientez. :D<p><a href=\"regles.html\"></a></p>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#a52725"
-            },
-            ".mbr-section-lead": {
-              "color": "#232323",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "text": "Veuillez suivre ces quelques étapes<br><br><br>1. Lire attentivement le règlement.<br>2. Rejoindre le Discord.<br>3. Publiez votre candidature. (Channel textuel \"Whitelist\")<br>4. Patientez !<br>.<br><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         }
       ]
     }
