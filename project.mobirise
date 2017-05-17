@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "whitelist.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -25,7 +25,9 @@
     "uniqCompNum": 17,
     "versionPublish": "3.12.1",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -149,10 +151,10 @@
           "_anchor": "msg-box3-2",
           "_params": {
             "paddingTop": "5",
-            "paddingBottom": "3",
+            "paddingBottom": "5",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/46969054-gta-5-wallpaper-3-2000x1125.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/46969054-gta-5-wallpaper-2000x1125.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -228,7 +230,7 @@
           },
           "title2": "Véhicules moddés",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "Retrouvez vos véhicules préférés sur notre serveur, parfaitement modélisées !",
+          "caption2": "Retrouvez vos véhicules préférés sur notre serveur, parfaitement modélisés !",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
@@ -296,8 +298,8 @@
           },
           "_anchor": "footer1-d",
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -409,6 +411,17 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            "B": {
+              "color": "#b8312f"
+            },
+            ".mbr-section-title": {
+              "color": "#b8312f"
+            }
+          },
           "_anchor": "form1-c",
           "_params": {
             "labelsColor": "#232323",
@@ -445,7 +458,7 @@
               },
               "phone": {
                 "title": "Phone",
-                "visible": true,
+                "visible": false,
                 "customTitle": "Phone"
               },
               "message": {
@@ -454,28 +467,23 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVOYER LA CANDIDATURE</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            "B": {
-              "color": "#b8312f"
-            },
-            ".mbr-section-title": {
-              "color": "#b8312f"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVOYER LA CANDIDATURE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "font-size": "14px",
+              "color": "#b8312f"
+            }
+          },
           "_anchor": "footer1-d",
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -485,13 +493,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright © Super.Cool.Ninja NINJA ROLE-PLAY",
-          "_styles": {
-            "P": {
-              "font-size": "14px",
-              "color": "#b8312f"
-            }
-          }
+          "text": "Copyright © Super.Cool.Ninja NINJA ROLE-PLAY"
         }
       ]
     },
@@ -594,6 +596,15 @@
             "Theme"
           ],
           "_name": "testimonials4",
+          "_styles": {
+            ".mbr-section-title SPAN": {
+              "font-size": "16px"
+            },
+            ".card-block": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          },
           "testimonial": [
             {
               "text": "<p>- Avancement du site</p>",
@@ -643,6 +654,9 @@
             "count": 3,
             "paddingTop": "4",
             "paddingBottom": "4",
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/thumb-1920-2000x1125.jpg",
@@ -652,22 +666,10 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": false,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
           "title": "MODIFICATIONS RECENTES<br><span style=\"font-weight: normal;\">Déscriptif des dernières mises à jours.</span>",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "_styles": {
-            ".mbr-section-title SPAN": {
-              "font-size": "16px"
-            },
-            ".card-block": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          }
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
           "_tags": [
@@ -682,8 +684,8 @@
           },
           "_anchor": "footer1-d",
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
